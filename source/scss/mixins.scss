@@ -1,0 +1,8 @@
+@mixin menu-hover($fontecor,$bgcor){
+
+    &:hover{
+        background-color: $bgcor;
+        color: $fontecor;      
+    }
+
+}

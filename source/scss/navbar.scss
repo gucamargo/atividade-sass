@@ -1,0 +1,40 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+#menu {
+	display: inline-block;
+	border:1px solid #49213e;
+	color:#49213e;
+	width:565px;
+}
+
+#menu ul li {
+	display: inline-block;
+}
+
+.menu-vazio {	
+	@extend %menu-opcoes;
+	width:110px;
+}
+
+.menu-brand {	
+	@extend %menu-opcoes;
+	@include menu-hover ($menu-brand-cor-hover, $menu-brand-bg-hover);
+}
+
+.menu-home {	
+	@extend %menu-opcoes;
+	@include menu-hover ($menu-home-cor-hover, $menu-home-bg-hover);
+}
+
+.menu-about {
+	@extend %menu-opcoes;
+	@include menu-hover ($menu-about-cor-hover, $menu-about-bg-hover);
+}
+
+.menu-contact {
+	@extend %menu-opcoes;
+	@include menu-hover ($menu-contact-cor-hover, $menu-contact-bg-hover);
+}

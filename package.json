@@ -1,0 +1,17 @@
+{
+  "name": "atividade-workflow",
+  "version": "1.0.0",
+  "description": "Atividade Workflow",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gustavo Camargo",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.4.0",
+    "gulp-htmlclean": "^2.7.14",
+    "gulp-sass": "^3.1.0"
+  }
+}
